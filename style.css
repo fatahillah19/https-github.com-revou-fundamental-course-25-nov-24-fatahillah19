@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    flex: 1;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.submit-btn {
+    background-color: #0906b8;
+    color: white;
+    cursor: pointer;
+}
+
+.reset-btn {
+    background-color: #ee0404;
+    color: white;
+    cursor: pointer;
+}
+
+button :hover {
+    background-color: #ccc8df;
+}
+
+#result {
+    margin-top: 30px;
+    display: none;
+}
+
+#result h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+#explanation {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #333;
+}
+
+#explanation ul {
+    text-align: left;
+    margin-top: 10px;
+}
+
+#explanation li {
+    margin-bottom: 5px;
+}
+
+.footer {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    margin-top: 20px;
+    font-size: 14px;
+    border-radius: 10px;
+  }
+  
+  
+
+ 
+  
